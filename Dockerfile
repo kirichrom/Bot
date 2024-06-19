@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "__main__.py"]
+CMD ["python", "bot", "__main__.py"]

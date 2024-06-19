@@ -38,8 +38,4 @@ async def main() -> None:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-    try:
-        asyncio.run(main())
-    except Exception as e:
-        logging.error(f"Error in main: {e}")
-        sys.exit(1)
+    asyncio.run(main())
