@@ -4,7 +4,7 @@ from aiogram import Router, F
 from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
 
-from bot.keyboard import main_keyboard, second_keyboard
+from keyboard import main_keyboard, second_keyboard
 
 router = Router()
 
